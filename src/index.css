@@ -3,11 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  background-color: #111;
+  background-color: black;
   color: #fff;
   font: helve;
 }
 @font-face {
   font-family: helve;
   src: "HelveticaNowDisplay-Medium.ttf";
+}
+canvas {
+  pointer-events: none;
+}
+span {
+  background-color: red;
 }
